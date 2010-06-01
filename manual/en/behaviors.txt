@@ -972,7 +972,7 @@ class Job extends Doctrine_Record
     public function setUp()
     {
         $this->actAs('Searchable', array(
-                'fields' => array('title', 'content')
+                'fields' => array('title', 'description')
             )
         );
     }
